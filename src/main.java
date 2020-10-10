@@ -1,7 +1,7 @@
 public class main {
     public static void main(String[] args) {
         BankService cashback = new BankService();
-        int result = cashback.calculate(100);
+        double result = cashback.calculate (3000,3000,17000);
         System.out.println(result);
 
 
