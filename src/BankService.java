@@ -9,6 +9,7 @@ public class BankService {
         int credit = 1;
         boolean profit = point == credit ;
         return point;
+        return point;
     }
 }
 
